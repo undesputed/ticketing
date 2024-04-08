@@ -1,0 +1,5 @@
+common
+/nats-test/node_modules
+/tickets/node_modules
+/auth/node_modules
+/client/node_modules

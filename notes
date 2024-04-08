@@ -1,0 +1,33 @@
+kubectl apply -f [yamlfile]
+kubectl get services
+kubectl rollout restart deployment [deployment_name]
+kubectl get pods
+kubectl log deployment [deployment name]
+kubectl describe pods [pod name]
+
+// Generate a a jwt-secret inside kubernetes
+kubectl create secret generic jwt-secret --from-literal=JWT_KEY=asdf
+
+docker build -t [image name] .
+docker push [image name]
+kubectl rollout restart deployment [deplname]
+
+kubectl apply -f . 
+
+skaffold dev
+skaffold delete
+
+
+carrieyu/client
+carrieyu/posts
+carrieyu/comments
+carrieyu/moderation
+carrieyu/query
+carrieyu/event-bus
+
+
+thisisunsafe
+
+npm version patch --no-git-tag-version // This will update the Version of the package.json file
+npm run build
+npm publish
